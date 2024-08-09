@@ -1,6 +1,5 @@
 .flex{
     display: flex;
-    justify-content: center;
 }
 *{
     margin: 0;
@@ -13,11 +12,24 @@ body{
     min-height: 150vh;
 }
 .left{
-    position: fixed;
     width: 15%;
     height: 100%;
     background-color: #5f76e8;
     align-items: center;
+}
+.left ul{
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+}
+.left ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px;
 }
 .right{
    width: 85%;
